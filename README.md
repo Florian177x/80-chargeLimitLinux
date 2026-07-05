@@ -1,6 +1,6 @@
 # 80-chargeLimitLinux
 
-An ultra-lightweight background service (daemon) written in C testet on Lenovo laptop running Linux (Ubuntu).
+An ultra-lightweight background service (daemon) written in C works on Lenovo ideapad laptop running Linux (tested on Ubuntu).
 
 This tool bypasses a limitation found in modern Lenovo firmwares, where the built-in conservation mode is hardcoded to cap the battery at 60%. This program monitors the battery level in the background and automatically freezes charging once it reaches **80%**.
 
